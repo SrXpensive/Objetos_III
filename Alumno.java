@@ -15,7 +15,7 @@ public class Alumno {
         this.curso = curso;
         this.nombre = nombre;
     }
-    Alumno (Alumno original){
+    Alumno(Alumno original){
         this.num = original.num;
         this.edad = original.edad;
         this.curso = original.curso;
