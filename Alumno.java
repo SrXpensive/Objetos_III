@@ -21,4 +21,13 @@ public class Alumno {
         this.curso = original.curso;
         this.nombre = original.nombre;
     }
+    public void copiaAlumno(Alumno a){
+        this.nombre = a.nombre;
+        this.edad = a.edad;
+        this.num = a.num;
+        this.curso = a.curso;
+    }
+    public boolean igualAlumno(Alumno a){
+        return (a.nombre.equals(this.nombre)) && (a.edad == this.edad) && (a.num == this.num) && (a.curso == this.curso);
+    }
 }
